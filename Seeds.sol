@@ -66,3 +66,6 @@ contract MyToken is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable, ERC2
         super._burn(account, amount);
     }
 }
+
+//<END> Contract Wizard - 
+// Contract Extendable
