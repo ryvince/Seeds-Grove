@@ -34,6 +34,11 @@ Future Ideas:
 	◦	Integrate ETH payment into the approveProposal so people gets Seeds and ETH on the same step or a following step. 
 
 
+// dependencies and starter commands:
+npm install
+truffle init
+npm install @openzeppelin/contracts
+
 //****
 //OLD SimpleBank Readme.md
 
