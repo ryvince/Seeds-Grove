@@ -1,8 +1,7 @@
-File 
 
-Flow:
+Init Process Flow:
 
-Seeds
+Seeds - Proposal Grove 
 
 Flows:
 Connect wallet
