@@ -1,3 +1,45 @@
+
+Init Process Flow:
+
+Seeds - Proposal Grove 
+
+Flows:
+Connect wallet
+Function giveSeeds 
+	◦	Hit button for seeds
+	◦	Send 10 seeds to msg.sender
+	◦	Maybe Add wallet to list to keep balance of seeds dispensed
+Function createProp
+	◦	Send 1 seed with txt idea of proposal
+	◦	Msg.sender balance ==-1
+	◦	Add proposal to billboard
+Function Accept Proposal
+	◦	Contract owner can accept proposals and return 2 seeds
+	◦	Add text for funding, other details 
+
+
+	◦	Contract setup in openzeplin wizard
+	◦	Mint 10k SEEDS as ERC20 or 1155
+
+Test Steps
+	◦	Contract is payable 
+	◦	Wallet can receive seeds
+	◦	SubmitProposal should be 1 seed
+	◦	Accept Proposals should return 2 seeds
+	◦	
+
+
+Future Ideas:
+	◦	Use seeds for purchases 
+	◦	Integrate ETH payment into the approveProposal so people gets Seeds and ETH on the same step or a following step. 
+
+
+//****
+//OLD SimpleBank Readme.md
+
+
+
+
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5784532&assignment_repo_type=AssignmentRepo)
 # Simple Bank Exercise
 
@@ -41,10 +83,3 @@ The general workflow is to use Test Drive Development's red green process:
 
 </details> -->
 
-
-### Note on testing
-
- Check out the testing files to see how tests are implemented in JavaScript.
- We will go over the details of implementing tests later in the curriculum. Of
- course, if you have questions, do reach out in Discord, or schedule an Office
- Hour session with one of our mentors.
