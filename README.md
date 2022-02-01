@@ -1,7 +1,7 @@
 
 Init Process Flow:
 
-Seeds - Proposal Grove 
+# Seeds - Proposal Grove 
 
 Flows:
 Connect wallet
@@ -9,32 +9,33 @@ Function giveSeeds
 	◦	Hit button for seeds
 	◦	Send 10 seeds to msg.sender
 	◦	Maybe Add wallet to list to keep balance of seeds dispensed
+
 Function createProp
 	◦	Send 1 seed with txt idea of proposal
 	◦	Msg.sender balance ==-1
 	◦	Add proposal to billboard
+
 Function Accept Proposal
-	◦	Contract owner can accept proposals and return 2 seeds
+	◦	Contract owner can accept proposals and return 3 seeds
 	◦	Add text for funding, other details 
 
 
 	◦	Contract setup in openzeplin wizard
-	◦	Mint 10k SEEDS as ERC20 or 1155
+	◦	Mint 33k SEEDS as ERC20 or 1155
 
-Test Steps
+# Test Steps
 	◦	Contract is payable 
 	◦	Wallet can receive seeds
 	◦	SubmitProposal should be 1 seed
 	◦	Accept Proposals should return 2 seeds
 	◦	
 
-
 Future Ideas:
 	◦	Use seeds for purchases 
 	◦	Integrate ETH payment into the approveProposal so people gets Seeds and ETH on the same step or a following step. 
 
 
-// dependencies and starter commands:
+# dependencies and starter commands:
 npm install
 truffle init
 npm install @openzeppelin/contracts
